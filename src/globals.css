@@ -13,6 +13,11 @@
   color-scheme: dark;
 }
 
+::selection{
+  background: #804dee;
+  color: #fff;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
