@@ -27,6 +27,8 @@ import {
   meta,
   starbucks,
   tesla,
+  emdad,
+  guitara,
   shopify,
   carrent,
   jobit,
@@ -89,14 +91,14 @@ const technologies: TTechnology[] = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -113,10 +115,10 @@ const technologies: TTechnology[] = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
@@ -127,8 +129,8 @@ const experiences: TExperience[] = [
   {
     title: "Web Developer",
     companyName: "Emdad",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: emdad,
+    iconBg: "#ced2df",
     date: "December 2024 - March 2025",
     points: [
       "Developed a responsive bilingual website (Arabic & English) for marketing military and civilian equipment. ",
@@ -140,8 +142,8 @@ const experiences: TExperience[] = [
   {
     title: "ReactJS Developer",
     companyName: "Guitara Group",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: guitara,
+    iconBg: "#f36aca",
     date: "March 2025 - June 2025",
     points: [
       "Developed and deployed the agency’s official website using React and Vite, increasing page speed by 40%.",
