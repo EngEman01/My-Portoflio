@@ -64,10 +64,10 @@ const services: TService[] = [
     title: "Backend NodeJs Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies: TTechnology[] = [
