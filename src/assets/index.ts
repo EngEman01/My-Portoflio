@@ -11,6 +11,7 @@ import close from "./close.svg";
 
 import emdad from "./../../public/image/emdadLogo.png";
 import guitara from "./../../public/image/guitara logo.png";
+import itis from "./../../public/image/itis.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -36,9 +37,15 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+
+import techNook from "./techNook.png";
+import shagara from "./shagara.png";
+import tammyFood from "./tammyFood.png";
+
 export {
   logo,
   portoflio,
+  itis,
   emdad,
   guitara,
   backend,
@@ -68,4 +75,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  tammyFood,
+  shagara,
+  techNook,
 };

@@ -20,12 +20,15 @@ import {
   mongodb,
   git,
   docker,
+  itis,
   emdad,
   guitara,
-  carrent,
-  jobit,
-  tripguide,
+  techNook,
+  shagara,
+  tammyFood,
   threejs,
+  creator,
+  tailwind,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -45,21 +48,22 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Frontend ReactJS Developer",
     icon: web,
   },
   {
-    title: "Frontend React Developer",
+    title: "Next.JS Developer | Full Stack Developer",
+    icon: creator,
+  },
+  {
+    title: "Frontend React Native Developer",
     icon: mobile,
   },
   {
-    title: "Backend NodeJs Developer",
+    title: "Backend NodeJs | .NET Developer",
     icon: backend,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+
 ];
 
 const technologies: TTechnology[] = [
@@ -87,10 +91,11 @@ const technologies: TTechnology[] = [
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -119,35 +124,47 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "Web Developer",
-    companyName: "Emdad",
-    icon: emdad,
+
+    title: "Full-Stack .NET Developer",
+    companyName: "ITIS",
+    icon: itis,
     iconBg: "#ced2df",
-    date: "December 2024 - March 2025",
+    date: "December 2025 - Present",
     points: [
-      "Developed a responsive bilingual website (Arabic & English) for marketing military and civilian equipment. ",
-      "Built UI using HTML, CSS, and JavaScript; integrated with backend (.NET MVC) for dynamic data display. ",
-      "Implemented QR code functionality to bridge print and digital materials, enhancing user access. ",
-      "Optimized mobile layout, reducing bounce rate by 20%. ",
+      "Developed ERP modules using ASP.NET MVC, C#, Web API, and SQL Server for 50+ clients.",
+      "Optimized complex database queries, improving retrieval speed by 25%.",
+      "Implemented automated testing and contributed to CI/CD pipelines, reducing production bugs by 20%.",
+      "Collaborated with frontend teams to integrate scalable RESTful APIs."
     ],
   },
   {
-    title: "ReactJS Developer",
+    title: "Front-End & Full-Stack Developer (Part-time)",
+    companyName: "Emdad",
+    icon: emdad,
+    iconBg: "#ced2df",
+    date: "December 2024 - Present",
+    points: [
+      "Led development of bilingual (AR/EN) React-based websites serving 5,000+ monthly users.",
+      "Built responsive interfaces using Tailwind CSS and modern layout techniques.",
+      "Improved mobile performance by 20% and achieved 100% Lighthouse SEO score.",
+      "Collaborated closely with backend developers to integrate APIs and deliver new features."
+    ],
+  },
+  {
+    title: "React Developer",
     companyName: "Guitara Group",
     icon: guitara,
     iconBg: "#f36aca",
-    date: "March 2025 - June 2025",
+    date: "March 2025 - Aug 2025",
     points: [
-      "Developed and deployed the agency’s official website using React and Vite, increasing page speed by 40%.",
-      "Integrated front-end with back-end systems via NodeJS in collaboration with backend team. ",
-      "Co-developed a Shopify-based e-commerce platform with a dynamic price comparison feature, improving user engagement by 25%.",
-      "Designed a branded portfolio website showcasing agency services and events. ",
-      "Ensured responsive, accessible design across all platforms, contributing to 30% increase in mobile traffic.",
+      "Built scalable React (v18+) applications using TypeScript and Vite.",
+      "Improved page load speed by 40% through code splitting and performance optimization.",
+      "Developed reusable UI components and implemented Redux-based state management.",
+      "Integrated RESTful APIs and ensured cross-browser compatibility.",
+      "Co-developed a Shopify-based e-commerce platform with dynamic price comparison, improving engagement by 25%."
     ],
   },
- 
 ];
-
 const testimonials: TTestimonial[] = [
   {
     testimonial:
@@ -194,7 +211,8 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
+
+    image: shagara,
     sourceCodeLink: "https://github.com/EngEman01/final-project/tree/master",
   },
   {
@@ -211,7 +229,8 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
+
+    image: techNook,
     sourceCodeLink: "https://github.com/EngEman01/TechNook",
   },
   {
@@ -228,7 +247,8 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+
+    image: tammyFood,
     sourceCodeLink: "https://github.com/EngEman01/Tammy-Food",
   },
 ];
